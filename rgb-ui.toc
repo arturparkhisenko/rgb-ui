@@ -1,0 +1,18 @@
+## Interface: 80205
+## Version: 0.1.0
+
+## Title: |cff9382c9rgb-ui|r [v0.1.0]
+## Notes: Set of the UI tweaks
+
+## Author: Artur Parkhisenko (Rgbtur)
+## X-Website: https://github.com/arturparkhisenko/rgb-ui
+## X-License: MIT
+## X-Curse-Project-ID: 00000
+## X-WoWI-ID: 00000
+
+## LoadOnDemand: 0
+## DefaultState: enabled
+## SavedVariablesPerCharacter: rgb_ui_character_config
+
+utils.lua
+rgb-ui.lua

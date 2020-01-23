@@ -1,0 +1,21 @@
+package-as: rgb-ui
+
+ignore:
+  - .editorconfig
+  - .gitignore
+
+move-folders:
+
+manual-changelog:
+  filename: CHANGELOG.md
+  markup-type: markdown
+
+license-output: LICENSE.md
+
+tools-used:
+
+externals:
+
+required-dependencies:
+
+optional-dependencies:
