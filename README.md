@@ -4,7 +4,7 @@
 
 ![UI-preview](screenshot.png)
 
-### VSCode plugins
+## VSCode plugins
 
 - [wow-bundle](https://marketplace.visualstudio.com/items?itemName=Septh.wow-bundle)
 - [vscode-lua](https://marketplace.visualstudio.com/items?itemName=trixnz.vscode-lua)
