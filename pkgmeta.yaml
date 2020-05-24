@@ -3,6 +3,7 @@ package-as: rgb-ui
 ignore:
   - .editorconfig
   - .gitignore
+  - .luacheckrc
 
 move-folders:
 
