@@ -12,13 +12,10 @@ local ADDON_VERSION = GetAddOnMetadata(ADDON_NAME, 'Version')
 local COMMAND = '/' .. ADDON_NAME
 local LOG_PREFIX = ADDON_NAME .. ': %s'
 
--- MODULE -------------------------------
+-- EXPORT -------------------------------
 
 local UTILS = {}
 namespace.UTILS = UTILS
-
-local API = {}
-namespace.API = API
 
 -- UTILITIES ----------------------------
 

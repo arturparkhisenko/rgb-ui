@@ -1,12 +1,18 @@
-## Interface: 80205
+## Interface: 11303
+## X-Max-Interface: 80300
+## X-Min-Interface: 11305
+
 ## Version: 0.1.0
 
-## Title: |cff9382c9rgb-ui|r [v0.1.0]
-## Notes: Set of the UI tweaks
+## Title: |cff9382c9rgb-ui |cff61b219|r[v0.1.0]
+## Notes: Set of the UI tweaks (Beta)
 
 ## Author: Artur Parkhisenko (Rgbtur)
-## X-Website: https://github.com/arturparkhisenko/rgb-ui
 ## X-License: MIT
+## X-Website: https://github.com/arturparkhisenko/rgb-ui
+## X-Date: 2020-08-24
+## X-Category: Unit Frames
+
 ## X-Curse-Project-ID: 00000
 ## X-WoWI-ID: 00000
 
@@ -14,5 +20,5 @@
 ## DefaultState: enabled
 ## SavedVariablesPerCharacter: rgb_ui_character_config
 
-utils.lua
+rgb-ui-utils.lua
 rgb-ui.lua
