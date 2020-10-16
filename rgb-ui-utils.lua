@@ -65,18 +65,6 @@ function UTILS:printHelp()
   UTILS:log('Examples: "/' .. ADDON_NAME .. ' ?" or "/' .. ADDON_NAME .. ' help" - Print this list')
 end
 
--- @name getWinRatePercent
--- @param played integer
--- @param won integer
--- @return winRatePercent integer
--- @usage UTILS:getWinRatePercent(187, 102) -- 54
-function UTILS:getWinRatePercent(played, won)
-  if (played == 0 or won == 0) then
-    return 0
-  end
-  return math.floor(won / (played / 100))
-end
-
 -- @name registerEvents
 -- @param frame Frame
 -- @param events table

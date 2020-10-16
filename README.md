@@ -1,6 +1,6 @@
 # rgb-ui ⚔️
 
-> World of Warcraft [Retail, Classic] AddOn which applies a set of the UI tweaks
+> World of Warcraft (Retail and Classic) AddOn which applies a set of the UI tweaks
 
 ![UI-preview](screenshot.png)
 
@@ -53,12 +53,14 @@
 - [ViragDevTool](https://www.curseforge.com/wow/addons/varrendevtool), [ViragDevTool GitHub](https://github.com/varren/ViragDevTool/)
 - [wow-api-docs](https://github.com/Gethe/wow-api-docs) `/api gui`
 - [WowLua](https://www.curseforge.com/wow/addons/wowlua) `/lua print(42)`
+- [.luacheckrc example](https://github.com/WeakAuras/WeakAuras2/blob/master/.luacheckrc)
 
 ### Guides
 
 - [addon guide, mmo-champion](https://www.mmo-champion.com/threads/817817-Creating-Your-Own-WoW-Addon)
 - [addon guide, wowhead](https://www.wowhead.com/guide=1949/wow-addon-writing-guide-part-one-how-to-make-your-first-addon)
 - [localization guide, phanx](https://phanx.net/addons/tutorials/localize)
+- [example of classic and retail](https://github.com/jordonwow/omnibar)
 
 ## TODO
 

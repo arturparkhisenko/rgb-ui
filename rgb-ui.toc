@@ -1,5 +1,5 @@
 ## Interface: 11303
-## X-Max-Interface: 80300
+## X-Max-Interface: 90001
 ## X-Min-Interface: 11305
 
 ## Version: 0.1.0
