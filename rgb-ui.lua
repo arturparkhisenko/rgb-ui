@@ -3,8 +3,6 @@
 local CreateFrame = CreateFrame
 local FocusFrameSpellBar = FocusFrameSpellBar
 local MainMenuBarArtFrame = MainMenuBarArtFrame
-local UIParent = UIParent
-local UnitClass = UnitClass
 
 -- CONSTANTS ----------------------------
 
@@ -216,9 +214,14 @@ local function opaqueUi()
 end
 
 local function removeEagles()
-  for i, v in pairs({MainMenuBarLeftEndCap, MainMenuBarRightEndCap}) do
-    v:SetVertexColor(.2, .2, .2)
-    v:SetAlpha(0)
+  if (UTILS:isClassic() == true) then
+    for i, v in pairs({MainMenuBarLeftEndCap, MainMenuBarRightEndCap}) do
+      v:SetVertexColor(.2, .2, .2)
+      v:SetAlpha(0)
+    end
+  else
+    MainMenuBarArtFrame.LeftEndCap:Hide()
+    MainMenuBarArtFrame.RightEndCap:Hide()
   end
 end
 
@@ -228,8 +231,11 @@ end
 
 local function runOptions()
   opaqueUi()
+  UTILS:log('applied opaqueUi')
   removeEagles()
+  UTILS:log('applied removeEagles')
   scaleFocusBar()
+  UTILS:log('applied scaleFocusBar')
 end
 
 -- COMMANDS -----------------------------
