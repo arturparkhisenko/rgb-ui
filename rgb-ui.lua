@@ -1,8 +1,6 @@
 -- UPVALUES -----------------------------
 
 local CreateFrame = CreateFrame
-local FocusFrameSpellBar = FocusFrameSpellBar
-local MainMenuBarArtFrame = MainMenuBarArtFrame
 
 -- CONSTANTS ----------------------------
 
@@ -79,14 +77,14 @@ local function opaqueUi()
       AlternatePowerBarBorder,
       AlternatePowerBarLeftBorder,
       AlternatePowerBarRightBorder,
-      ArtifactWatchBar.StatusBar.WatchBarTexture0,
-      ArtifactWatchBar.StatusBar.WatchBarTexture1,
-      ArtifactWatchBar.StatusBar.WatchBarTexture2,
-      ArtifactWatchBar.StatusBar.WatchBarTexture3,
-      ArtifactWatchBar.StatusBar.XPBarTexture0,
-      ArtifactWatchBar.StatusBar.XPBarTexture1,
-      ArtifactWatchBar.StatusBar.XPBarTexture2,
-      ArtifactWatchBar.StatusBar.XPBarTexture3,
+      ArtifactWatchBarTexture0,
+      ArtifactWatchBarTexture1,
+      ArtifactWatchBarTexture2,
+      ArtifactWatchBarTexture3,
+      ArtifactXPBarTexture0,
+      ArtifactXPBarTexture0,
+      ArtifactXPBarTexture0,
+      ArtifactXPBarTexture0,
       BonusActionBarFrameTexture0,
       BonusActionBarFrameTexture1,
       BonusActionBarFrameTexture2,
@@ -117,14 +115,14 @@ local function opaqueUi()
       FocusFrameSpellBarBorder,
       FocusFrameTextureFrameTexture,
       FocusFrameToTTextureFrameTexture,
-      HonorWatchBar.StatusBar.WatchBarTexture0,
-      HonorWatchBar.StatusBar.WatchBarTexture1,
-      HonorWatchBar.StatusBar.WatchBarTexture2,
-      HonorWatchBar.StatusBar.WatchBarTexture3,
-      HonorWatchBar.StatusBar.XPBarTexture0,
-      HonorWatchBar.StatusBar.XPBarTexture1,
-      HonorWatchBar.StatusBar.XPBarTexture2,
-      HonorWatchBar.StatusBar.XPBarTexture3,
+      HonorWatchBarTexture0,
+      HonorWatchBarTexture1,
+      HonorWatchBarTexture2,
+      HonorWatchBarTexture3,
+      HonorXPBarTexture0,
+      HonorXPBarTexture1,
+      HonorXPBarTexture2,
+      HonorXPBarTexture3,
       MainMenuBarLeftEndCap,
       MainMenuBarRightEndCap,
       MainMenuBarTexture0,
@@ -157,14 +155,6 @@ local function opaqueUi()
       PlayerFrameAlternateManaBarLeftBorder,
       PlayerFrameAlternateManaBarRightBorder,
       PlayerFrameTexture,
-      ReputationWatchBar.StatusBar.WatchBarTexture0,
-      ReputationWatchBar.StatusBar.WatchBarTexture1,
-      ReputationWatchBar.StatusBar.WatchBarTexture2,
-      ReputationWatchBar.StatusBar.WatchBarTexture3,
-      ReputationWatchBar.StatusBar.XPBarTexture0,
-      ReputationWatchBar.StatusBar.XPBarTexture1,
-      ReputationWatchBar.StatusBar.XPBarTexture2,
-      ReputationWatchBar.StatusBar.XPBarTexture3,
       ReputationWatchBarTexture0,
       ReputationWatchBarTexture1,
       ReputationWatchBarTexture2,
@@ -185,9 +175,7 @@ local function opaqueUi()
       TargetFrameToTTextureFrameTexture,
       TargetofTargetTexture,
       -- Others
-      ExhaustionTick:GetNormalTexture(),
       _G[TargetFrameSpellBar:GetName() .. 'Border'],
-      select(1, TimeManagerClockButton:GetRegions())
     }
   end
 
