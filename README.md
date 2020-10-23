@@ -1,6 +1,6 @@
 # rgb-ui ⚔️
 
-> World of Warcraft (Retail and Classic) AddOn which applies a set of the UI tweaks
+> World of Warcraft (Retail and Classic) AddOn with UI tweaks
 
 ![UI-preview](screenshot.png)
 
