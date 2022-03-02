@@ -2,8 +2,6 @@
 
 > World of Warcraft (Retail and Classic) AddOn with UI tweaks
 
-![UI-preview](screenshot.png)
-
 ## VSCode plugins
 
 - [wow-bundle](https://marketplace.visualstudio.com/items?itemName=Septh.wow-bundle)
@@ -70,6 +68,7 @@
 - Release a version `0.1.0`
 - Publish on [CurseForge](https://authors.curseforge.com/knowledge-base/world-of-warcraft/527-preparing-the-packagemeta-file)
 - Publish on [WoWInterface](https://www.wowinterface.com/forums/showthread.php?t=51553)
+- Publish on [WagoIO](https://addons.wago.io/)
 - Publish post on reddit
 
 ## [MIT License](LICENSE.md)
